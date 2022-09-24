@@ -1,12 +1,14 @@
 import './App.css';
-import Countries from './components/Countries';
 import Header from './components/Header';
+import Watch from './components/Watch';
 
 function App() {
+
   return (
     <>
       <Header />
-      <Countries />
+      <Watch />
+      {/* <Countries /> */}
     </>
   );
 }

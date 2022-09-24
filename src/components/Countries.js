@@ -4,7 +4,7 @@ import Country from './Country';
 const Countries = () => {
     const [countries, setCountries] = useState([]);
     useEffect(() => {
-        return loadCountries
+        return loadCountries()
     }, [])
 
     const loadCountries = async () => {

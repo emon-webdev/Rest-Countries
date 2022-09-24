@@ -1,7 +1,6 @@
 import React from 'react';
 
 const Country = ({ country }) => {
-    console.log(country)
     const { name, area, flags, continents, region } = country;
     return (
         <div className='country-item' key={country.index} >
